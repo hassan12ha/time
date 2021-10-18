@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(virgin.jpg);
+    background-attachment: fixed;
+    background-repeat: round;
+    background-size: cover;
+    font-family: 'Saira Stencil One', cursive;
+    /* background-color: #bfbfbf; */
+}
+#outside_box{
+width: 50%;
+height: 400px;
+/*background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);*/
+background: linear-gradient(to right ,#a1a2a385 30%,#58565175 50% );
+border: 30px solid #dbeaf7;
+box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.603);
+border-radius: 30px;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
+#inside_box{
+    text-align: center;
+    border: 18px solid #2b2b2b;
+    border-radius: 20px;
+     width: 101%;
+    height: 102%;
+    position: relative;
+    right:3px;
+    bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#time{
+    color: #f5f5f5;
+    position: relative;
+    top: 60px;
+    font-size: 130px;
+}
+#date{
+    position: relative;
+    top: 210px;
+    color: #1d1a1a;
+    font-size: 65px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px;
+}
+#color{
+    position: relative;
+    top: 230px;
+}
+@media screen and (max-width:1856px) {
+#setTime{
+    font-size: 150px;
+}
+    
+}
+@media screen and (max-width:1513px) {
+    #setTime{
+        font-size: 130px;
+    }    
+}
+@media screen and (max-width:1316px) {
+    #setTime{
+        font-size: 100px;
+    } 
+    #setDate{
+        font-size: 50px;
+    }   
+}
+@media screen and (max-width:934px) {
+    #setTime{
+        font-size: 80px;
+    }    
+}
+@media screen and (max-width:873px) {
+    #setTime{
+        font-size: 60px;
+    } 
+    #setDate{
+        font-size: 40px;
+    } 
+  
+}
+@media screen and (max-width:664px) {
+    #setTime{
+        font-size: 50px;
+    } 
+    #setDate{
+        font-size: 30px;
+    } 
+  
+}
