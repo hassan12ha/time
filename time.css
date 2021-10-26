@@ -99,3 +99,24 @@ transform: translate(-50%,-50%);
     } 
   
 }
+@media screen and (max-width:559px) {
+    #setTime{
+        font-size: 40px;
+        position: relative;
+        top: -20px;
+        
+    } 
+    #setDate{
+        font-size: 25px;
+    } 
+    #outside_box{
+        width: 250px;
+        height: 220px;
+        border: 15px solid #dbeaf7;
+        
+    }
+    #inside_box{
+        border: 10px solid #2b2b2b;
+    }
+  
+}
